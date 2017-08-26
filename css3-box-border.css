@@ -1,0 +1,17 @@
+div{
+    border: 15px solid transparent ;
+    /* border-radius: 10px;
+    background: green; */
+    width: 300px;
+    /* box-shadow: 5px 5px 5px #888888; */
+    margin: 50px
+    
+}
+#round{
+    margin: 50px;
+    -webkit-border-image: url(border.png) 30 round;
+    
+}
+#stretch{
+    -webkit-border-image: url(border.png) 30 30 stretch;
+}
